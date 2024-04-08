@@ -1,5 +1,6 @@
 {
   "name": "vite-deploy-electron",
+  "homepage": "https://bochunator.github.io/vite-deploy-electron/",
   "private": true,
   "version": "0.0.0",
   "scripts": {
