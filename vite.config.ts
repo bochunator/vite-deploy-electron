@@ -23,4 +23,5 @@ export default defineConfig({
       renderer: {},
     }),
   ],
+  base: "/vite-deploy-electron/"
 })
