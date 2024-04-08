@@ -1,14 +1,16 @@
 import { useState } from 'react'
 
-import reactLogo from '../assets/react.svg'
+import reactLogo from '../../assets/react.svg'
 import viteLogo from '/electron-vite.animate.svg'
+
+import "./Home.css"
 
 
 const Home = () => {
     const [count, setCount] = useState(0)
 
     return (
-        <>
+        <article>
             <div>
                 <a href="https://electron-vite.github.io" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -29,7 +31,7 @@ const Home = () => {
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
-        </>
+        </article>
     )
 };
 
