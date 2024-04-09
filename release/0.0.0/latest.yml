@@ -1,0 +1,8 @@
+version: 0.0.0
+files:
+  - url: YourAppName-Windows-0.0.0-Setup.exe
+    sha512: 0QXBlWpA1Mngeqg61Qkbo18yQKpdfRS0GPqC1fb9rR+w5lstPwELhJJH1m2Tq2QfJ7PDGzx3UOmBO7t1RVOiaA==
+    size: 77395334
+path: YourAppName-Windows-0.0.0-Setup.exe
+sha512: 0QXBlWpA1Mngeqg61Qkbo18yQKpdfRS0GPqC1fb9rR+w5lstPwELhJJH1m2Tq2QfJ7PDGzx3UOmBO7t1RVOiaA==
+releaseDate: '2024-04-09T07:07:31.404Z'

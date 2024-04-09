@@ -13,7 +13,7 @@ interface ShapeProps {
 }
 
 function SourceCode() {
-    const [shapes, setShapes] = useState<ShapeProps[]>(() => {
+    const [shapes] = useState<ShapeProps[]>(() => {
         const storedShapes = localStorage.getItem('shapes');
         return storedShapes ? JSON.parse(storedShapes) : [];
     });

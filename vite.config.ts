@@ -3,6 +3,10 @@ import path from 'node:path'
 import electron from 'vite-plugin-electron/simple'
 import react from '@vitejs/plugin-react'
 
+const isElectron = process.env.MODE === 'electron'
+console.log(process.env.MODE);
+// MODE=electron npm run build
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -23,5 +27,5 @@ export default defineConfig({
       renderer: {},
     }),
   ],
-  base: "/vite-deploy-electron/"
+  ...(isElectron ? {} : { base: '/vite-deploy-electron/' })
 })
