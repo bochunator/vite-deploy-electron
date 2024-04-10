@@ -9,6 +9,7 @@ import WorkingArea from "./pages/WorkingArea/WorkingArea";
 import Sandbox from "./pages/Sandbox/Sandbox";
 import SecondSandBox from "./pages/SecondSandbox/SecondSandbox";
 import SourceCode from "./pages/SourceCode/SourceCode";
+import Download from "./pages/Download";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <Route path="secondsandbox" element={<SecondSandBox />} />
                 <Route path="sandbox" element={<Sandbox />} />
                 <Route path="sourcecode" element={<SourceCode />} />
+                <Route path="download" element={<Download />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>

@@ -31,6 +31,9 @@ const Layout = () => {
                     <li>
                         <Link to="/sourcecode">Source Code</Link>
                     </li>
+                    <li>
+                        <Link to="/download">Download</Link>
+                    </li>
                 </ul>
             </nav >
 
